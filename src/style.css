@@ -1,3 +1,61 @@
 body {
-    background-color: bisque;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  gap: 13rem;
+}
+
+h1 {
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.inner-paragraph {
+  border: 4px solid black;
+  width: 24rem;
+}
+
+p:nth-child(even) {
+  background-color: rgb(204, 202, 202);
+}
+
+.second-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent {
+  margin-left: 1rem;
+}
+
+.refresh-button {
+  height: 1.7rem;
+  width: 6rem;
+  margin-top: 1rem;
+}
+
+.score-dashboard {
+  width: 21rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Score {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 9.4rem;
+}
+
+.submit-button {
+  height: 1.7rem;
+  width: 4rem;
+  margin-left: 7rem;
 }
