@@ -1,10 +1,12 @@
-import "./style.css";
-function component() {
-  const element = document.createElement("div");
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-  element.classList.add("hello");
+import './style.css';
 
-  return element;
-}
-
-document.body.appendChild(component());
+const innerPars = document.querySelector('.inner-paragraph');
+innerPars.innerHTML = `<p>Name: 100</p>
+<p>Name: 150</p>
+<p>Name: 250</p>
+<p>Name: 250</p>
+<p>Name: 250</p>
+<p>Name: 250</p>
+<p>Name: 250</p>
+<p>Name: 250</p>
+<p>Name: 300</p>`;
