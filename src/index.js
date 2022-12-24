@@ -1,12 +1,16 @@
 import './style.css';
+import getData from './modules/get.js';
+import postData from './modules/post.js';
 
-const innerPars = document.querySelector('.inner-paragraph');
-innerPars.innerHTML = `<p>Name: 100</p>
-<p>Name: 150</p>
-<p>Name: 250</p>
-<p>Name: 250</p>
-<p>Name: 250</p>
-<p>Name: 250</p>
-<p>Name: 250</p>
-<p>Name: 250</p>
-<p>Name: 300</p>`;
+/// buttons//
+
+const submitButton = document.querySelector('.submit-button');
+submitButton.addEventListener('click', () => {
+  postData();
+});
+
+const refreshButton = document.querySelector('.refresh-button');
+refreshButton.addEventListener('click', () => {
+  window.location.reload();
+});
+getData();
