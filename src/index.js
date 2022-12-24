@@ -4,7 +4,7 @@ import postData from './modules/post.js';
 
 /// buttons//
 
-const submitButton = document.querySelector('.submit-button');
+const submitButton = document.querySelector('.button');
 submitButton.addEventListener('click', () => {
   postData();
 });
