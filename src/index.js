@@ -11,5 +11,6 @@ submitButton.addEventListener('click', () => {
 
 const refreshButton = document.querySelector('.refresh-button');
 refreshButton.addEventListener('click', () => {
-  getData();
+  window.location.reload();
 });
+getData();
