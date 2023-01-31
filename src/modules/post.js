@@ -27,11 +27,7 @@ const postData = async () => {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(playerNames),
   };
-  await fetch(url, params)
-    .then((response) => response.json())
-    .then(() => {
-      window.location.reload();
-    });
+  await fetch(url, params).then((response) => response.json());
 };
 
 export { postData as default };
