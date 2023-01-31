@@ -2,8 +2,6 @@ import './style.css';
 import getData from './modules/get.js';
 import postData from './modules/post.js';
 
-/// buttons//
-
 const submitButton = document.querySelector('.button');
 submitButton.addEventListener('click', () => {
   postData();
