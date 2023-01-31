@@ -1,7 +1,6 @@
 const player = document.querySelector('#text');
 const playerScore = document.querySelector('#score-text');
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xFYWNQ1BMLcrnYEsH7Bp/scores/';
-
 let playerNames = {
   user: '',
   score: '',

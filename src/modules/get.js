@@ -1,7 +1,3 @@
-// get it
-// post it
-//  fetch to select it
-// await
 const getData = async () => {
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xFYWNQ1BMLcrnYEsH7Bp/scores/';
   const response = await fetch(url);
